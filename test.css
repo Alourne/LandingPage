@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.navbar {
+    background-color: #14a7e1;
+    height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+}
