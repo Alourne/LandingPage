@@ -152,8 +152,6 @@ li a {
     flex-direction: column;
 }
 
-
-
 .layer2 {
     background-color: rgba(255, 228, 196, 0.856);
     display: flex;
@@ -174,7 +172,7 @@ li a {
     text-shadow: 2px 2px 3px black;
 }
 
-.airbenders-heading {
+.airbenders-heading, .firebenders-heading {
     text-shadow: 1px 1px 5px #dce2e4, 2px 2px 3px black;
     color: white;
     font-size: 3.0rem;
@@ -185,7 +183,7 @@ li a {
     text-align: center;
 }
 
-.l2heading {
+.l2heading, .l4heading {
     text-shadow: 1px 1px 10px #dce2e4;
     text-align: center;
     margin-top: 15px;
@@ -200,8 +198,14 @@ li a {
 
 .firebenders {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    padding: 40px;
     gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 3px black;
 }
 
 .layer2 {
@@ -217,5 +221,47 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20.5rem;
 }
+
+.azula-img,
+.zuko-img,
+.iroh-img,
+.ozai-img {
+    box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.24);
+}
+
+.quote {
+    display: flex;
+    color: white;
+    font-size: 3.0rem;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Avatar/iroh_.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+.quote-says {
+    width: 900px;
+    height: 250px;
+}
+
+.whole-quote {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20.5rem;
+    padding: 10px;
+    font-size: 4.0rem;
+    text-shadow: 2px 2px 3px black;
+}
+
+.name {
+    text-align: end;
+    text-shadow: 2px 2px 3px black;
+}
+
