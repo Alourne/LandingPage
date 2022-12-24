@@ -268,34 +268,49 @@ li a {
 
 .link {
     margin-top: 20.5rem;
-    margin-bottom: 10.5rem;
     display: flex;
     padding: 40px;
     gap: 40px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 228, 196, 0.856);
+    background-color: #ffe4c4da;
     color: white;
     text-shadow: 1px 1px 10px #dce2e4;
     
 }
 
 .song-lyrics {
-    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
     padding: 40px;
+    background-color: #daf5cbda;
+    filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.329));
+    width: 400px;
+    height: 100px;
 }
 
 .secret {
+    text-shadow: 1px 1px 5px #e4dcdc, 2px 2px 3px black;
     margin-bottom: 5px;
     font-size: 3.0rem;
 }
 
+.lyrics {
+    align-items: flex-start;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 3px black;
+}
+
 .song-link {
+    text-shadow: 1px 1px 5px #e4dcdc, 2px 2px 3px black;
     text-decoration: none;
     list-style-type: none;
-    background-color: black;
+    background-color: #daf5cbda;
     padding: 15px;
-    border-radius: 15px;
+    filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.329));
+    border-radius: 35px;
+    font-size: 1.6rem;;
 }
 
 a:link {
@@ -304,4 +319,16 @@ a:link {
 
 a:visited {
     color: white;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  font-size: 2.2rem;
+  padding: 15px;
+  color: white;
+  text-align: center;
 }
