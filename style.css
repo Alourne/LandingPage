@@ -40,6 +40,7 @@ li a {
 
 .header {
     overflow: hidden;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.212));
     background-color: rgba(255, 228, 196, 0.856);
     position: fixed;
     display: flex;
@@ -55,7 +56,6 @@ li a {
     min-height: 100%;
     z-index: -2;
 }
-
 
 .SATemple {
     display: flex;
@@ -73,20 +73,60 @@ li a {
     background-color: rgba(240, 240, 240, 0.247);
 }
 
-.description {
+.crescent-island {
+    display: flex;
+    background-color: orange;
+    border-radius: 25px;
+    width: 75%;
+    min-height: 500px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3.0rem;
+    padding: 0 20px 0 0;
+    color: white;
+    margin: 5em auto 0 auto;
+    background-color: rgba(231, 132, 87, 0.342);;
+}
+
+.crescent-left {
+    padding: 100px;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.crescent-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-shadow: 1px 1px 5px #dce2e4, 2px 2px 3px black;
+}
+
+.crescent-image {
+    width: 500px;
+    height: 100%;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.205); 
+    border-radius: 25px;
+}
+
+.description, .description2 {
     text-shadow: 2px 2px 3px black;
 }
 
-.title {
+.title, .crescent-title {
     margin-bottom: 30px;
-    text-shadow: 1px 1px 5px #dce2e4, 2px 2px 3px black;
+    text-shadow: 1px 1px 5px #e4dcdc, 2px 2px 3px black;
 }
 
 .temple-image {
     width: 500px;
     height: 100%;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.205); 
-    /* filter: drop-shadow(0 0 0.75rem #1d1c1c42); */
     border-radius: 25px;
 }
 
@@ -112,15 +152,14 @@ li a {
     flex-direction: column;
 }
 
-.layer1 {
-    margin-bottom: 20.5rem;
-}
+
 
 .layer2 {
     background-color: rgba(255, 228, 196, 0.856);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20.5rem;
 }
 
 .airbenders {
@@ -146,18 +185,37 @@ li a {
     text-align: center;
 }
 
-.gyatso-text {
-}
-
 .l2heading {
     text-shadow: 1px 1px 10px #dce2e4;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .gyatso,
 .avatar-yangchen,
 .pasang-img,
 .jinju-img {
-    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.205);
+    box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.24);
+}
+
+.firebenders {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.layer2 {
+    margin-top: 20.5rem;
+}
+
+.fire-container {
+    margin-bottom: 20.5rem;
+}
+
+.layer4 {
+    background-color: rgba(255, 228, 196, 0.856);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20.5rem;
 }
