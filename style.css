@@ -3,8 +3,12 @@
     src: url(Avatar/Herculanum-Regular.ttf);
 }
 
+html {
+    font-size: 62.5%
+}
+
 body {
-    background-color: #14a8e2;
+    background-color: #12a4d4;
     font-family: 'Herculanum';
     display: block;
     margin: 0;
@@ -13,9 +17,7 @@ body {
 }
 
 .navbar {
-    background-color: bisque;
     overflow: hidden;
-
 }
 
 .right {
@@ -23,6 +25,7 @@ body {
     align-items: center; 
     align-content: space-between;
     justify-content: flex-end; 
+    font-size: 1.8rem;
 }
 
 li {
@@ -36,28 +39,22 @@ li a {
   }
 
 .header {
+    overflow: hidden;
+    background-color: rgba(255, 228, 196, 0.856);
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5px;
+    width: 100%;
   }
-
-.SATemple {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-size: 1.5rem;
-    padding: 0;
-    color: white;
-}
 
 .SPole {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     color: white;
     height: 100%;
     background-position: center;
@@ -71,23 +68,52 @@ li a {
     min-height: 100%;
     z-index: -2;
 }
-/* position: fixed;
-width: 100%;
-height: 100%;
-object-fit: cover;
-top: 0;
-left: 0;
-filter: brightness(1.2);
-z-index: -2; */
-.layer1 {
+
+
+.SATemple {
     display: flex;
-    border: 10px;
-    height: 100%;
-    width: 50%;
+    background-color: orange;
+    border-radius: 25px;
+    width: 85%;
+    min-height: 500px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3.0rem;
+    padding: 0;
+    color: white;
+    margin: 5em auto 0 auto;
+    background-color: rgba(240, 240, 240, 0.247);
 }
 
-.SAContainer {
-    height: 100vh;
+.temple-image {
+    width: 500px;
+    height: 100%;
+}
+
+.temple-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.temple-left {
+    padding: 100px;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.title {
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 10px #dce2e4;
 }
 
 
