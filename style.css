@@ -49,19 +49,6 @@ li a {
     width: 100%;
   }
 
-.SPole {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 2.4rem;
-    color: white;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #Appa {
     position: fixed;
     min-width: 100%;
@@ -95,8 +82,13 @@ li a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-right: 10px;
+    text-shadow: 1px 1px 10px #dce2e4;
+}
+
+.image-text {
+    margin-top: 10px;
 }
 
 .temple-left {
@@ -108,26 +100,49 @@ li a {
     flex-direction: column;
 }
 
-
-
-
 .title {
     margin-bottom: 30px;
     text-shadow: 1px 1px 10px #dce2e4;
 }
 
+.layer1 {
+    margin-bottom: 20.5rem;
+}
 
+.layer2 {
+    background-color: rgba(255, 228, 196, 0.856);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-/* .layer1Container {
-    width: 85%;
-    height: 100%;
-    border-radius: 1.5em;
-    margin: 9em auto 0 auto;
+.airbenders {
     display: flex;
     flex-direction: row;
+    padding: 40px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 2em rgb(69 69 69);
-} */
+}
+
+.airbenders-heading {
+    text-shadow: 1px 1px 10px #dce2e4;
+    color: white;
+    font-size: 3.0rem;
+}
+
+.monk-gyatso {
+    align-self: center;
+    text-align: center;
+}
+
+.gyatso {
+    text-shadow: 1px 1px 10px #dce2e4;
+    box-shadow: #12a4d4;
+}
+
+.l2heading {
+    text-shadow: 1px 1px 10px #dce2e4;
+    text-align: center;
+    margin-top: 10px;
+}
