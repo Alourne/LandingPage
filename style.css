@@ -240,7 +240,7 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/Avatar/iroh-.jpg);
+    background-image: url(Avatar/iroh-.jpg);
     background-size: cover;
     background-attachment: fixed;
     object-fit: cover;
